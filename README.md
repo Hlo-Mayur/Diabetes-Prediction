@@ -13,15 +13,19 @@ Diabetes is a chronic disease that requires early detection to reduce health ris
 ---
 
 ## Dataset Description
-The dataset contains patient health records with multiple numerical features, including:
-- Glucose level  
-- Blood pressure  
-- Body Mass Index (BMI)  
-- Insulin level  
-- Age  
-- Pregnancies count  
+The dataset contains medical diagnostic measurements collected from patients. Each record includes the following features:
 
-The target variable indicates whether the patient is diabetic (1) or non-diabetic (0).
+- **Pregnancies** – Number of times the patient has been pregnant  
+- **Glucose** – Plasma glucose concentration  
+- **BloodPressure** – Diastolic blood pressure (mm Hg)  
+- **SkinThickness** – Triceps skin fold thickness (mm)  
+- **Insulin** – Serum insulin level  
+- **BMI** – Body Mass Index (weight in kg / height in m²)  
+- **DiabetesPedigreeFunction** – A measure of genetic predisposition to diabetes  
+- **Age** – Age of the patient in years  
+
+The target variable is:
+- **Outcome** – Indicates whether the patient has diabetes (1 = diabetic, 0 = non-diabetic)
 
 ---
 
